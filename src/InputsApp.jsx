@@ -101,7 +101,7 @@ export default function InputsApp() {
                 className={`button ${predict[index] ? "active" : ""}`}
                 onClick={() => editChanger(index)}
               >
-                edit
+                edits112
               </Button>
               <Button label="remove" onClick={() => removeLast(index)} />
             </li>
