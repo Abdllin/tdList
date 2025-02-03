@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 16px;
+  width: 500px;
+  height: 5px;
+  margin-right: 50px;
+  margin-top: 5px;
+}
+
+.button {
+  background: #ccc;
+  width: 66px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 14px;
+  display: inline;
+  margin: 5px 20px;
+}
+
+.buttoninProcess {
+  background: #ccc;
+  color: #e5f505;
+  width: 66px;
+  height: 30px;
+  border: 1px solid #e5f505;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 14px;
+  display: inline;
+  margin: 5px 20px;
+}
+
+.buttonTodo {
+  background: #ccc;
+  color: #e5f505;
+  width: 53px;
+  height: 30px;
+  border: 1px solid #e5f505;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 14px;
+  display: inline;
+  margin: 5px 20px;
+}
+
+.buttonComplete {
+  background: #ccc;
+  color: #e5f505;
+  width: 53px;
+  height: 30px;
+  border: 1px solid #e5f505;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: center;
+  font-size: 14px;
+  display: inline;
+  margin: 5px 20px;
+}
+
+.buttonEffects {
+  padding: 0.7rem 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 18px;
+}
+
+.button.hover {
+  opacity: 0.8;
+}
+
+.button.active {
+  background: #3e6ae1;
+  color: #a1a0ac;
+}
+
+.headbtn {
+  display: inline-flex;
+  padding: 5px 25px;
+  color: white;
+}
+.headinp {
+  display: inline-flex;
+  margin-right: 230px;
+  margin-left: 190px;
+  color: white;
+}
+
+.buttonadd {
+  padding: 0.7rem 1.5rem;
+  width: 60px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 385px;
+  top: -40px;
+}
