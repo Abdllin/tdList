@@ -68,7 +68,7 @@ export default function InputsApp() {
   return (
     <div className="inputdiv">
       <button className="buttonadd" onClick={addInput}>
-        add
+        addss
       </button>
       <div>
         <pre className="headinp">what we have to do</pre>
